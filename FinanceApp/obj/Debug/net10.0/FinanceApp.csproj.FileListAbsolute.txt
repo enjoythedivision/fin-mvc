@@ -466,3 +466,4 @@ C:\Users\Aorus\source\repos\enjoythedivision\fin-mvc\FinanceApp\obj\Debug\net10.
 C:\Users\Aorus\source\repos\enjoythedivision\fin-mvc\FinanceApp\obj\Debug\net10.0\FinanceApp.csproj.Up2Date
 C:\Users\Aorus\source\repos\enjoythedivision\fin-mvc\FinanceApp\obj\Debug\net10.0\FinanceApp.genruntimeconfig.cache
 C:\Users\Aorus\source\repos\enjoythedivision\fin-mvc\FinanceApp\obj\Debug\net10.0\ref\FinanceApp.dll
+C:\Users\Aorus\source\repos\enjoythedivision\fin-mvc\FinanceApp\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
