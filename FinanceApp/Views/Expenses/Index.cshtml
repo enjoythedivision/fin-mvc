@@ -1,0 +1,27 @@
+@Model IEnumerable<FinanceApp.Models.Expense>
+<h2>My expenses</h2>
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Description
+                </th>
+                <th>Amout</th>
+                <th>Category</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Description</td>
+                        <td>@item.Amount</td>
+                        <td>@item.Category</td>
+                        <td>@item.Date</td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+</div>
