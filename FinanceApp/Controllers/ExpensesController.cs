@@ -15,18 +15,19 @@ namespace FinanceApp.Controllers
             _expensesService = expensesService;
         }
 
-        // GET: ExpensesController
         public async Task<IActionResult> Index()
         {
             var expenses = await _expensesService.GetAll();
             return View(expenses);
         }
 
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
+        [HttpPost]
         public async Task<IActionResult> Create(Expense expense)
         {
             if (ModelState.IsValid) {
